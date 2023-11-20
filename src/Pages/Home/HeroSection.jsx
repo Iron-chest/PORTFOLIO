@@ -3,15 +3,16 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm John</p>
+          <p className="section--title">Hey, I'm Akintayo Tolani</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">DevOps</span>{" "}
             <br />
-            Developer
+            Engineer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+          Seasoned DevOps Engineer with extensive experience orchestrating seamless collaboration,
+          automating deployment pipelines, and optimizing infrastructure to accelerate software delivery and ensure system reliability.
+            <br /> 
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>

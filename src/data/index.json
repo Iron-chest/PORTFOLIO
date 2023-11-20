@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "DevOps Engineering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Spearheading the convergence of development and operations, I specialize in automating workflows, implementing continuous integration/deployment, and optimizing infrastructure to accelerate software delivery and enhance system reliability."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Cloud Engineering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Proficient in designing, deploying, and optimizing scalable cloud infrastructures, seamlessly integrating with DevOps practices to enhance agility, reliability, and innovation in software development and delivery."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "Build and Release Engineering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Build and Release Engineering: Expert in crafting and optimizing seamless software delivery pipelines, accelerating releases and ensuring code quality through automated build processes and efficient release management."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Platform Engineering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Expert in crafting robust and scalable platforms, I specialize in designing and managing the foundational infrastructure, optimizing performance, and ensuring seamless integration with DevOps principles for accelerated software delivery and enhanced system resilience."
     }
   ],
   "portfolio": [
@@ -54,7 +54,7 @@
       "count": "5",
       "src": "./img/avatar-image.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
+      "author_name": "Mrs Ibidapo",
       "author_designation": "Starbucks"
     },
     {
@@ -62,7 +62,7 @@
       "count": "5",
       "src": "./img/avatar-image-1.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
+      "author_name": "Mr odeyinde",
       "author_designation": "Louis Vuitton"
     },
     {
@@ -70,7 +70,7 @@
       "count": "5",
       "src": "./img/avatar-image-2.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
+      "author_name": "Kelvin Omoh",
       "author_designation": "McDonald's"
     }
   ]
