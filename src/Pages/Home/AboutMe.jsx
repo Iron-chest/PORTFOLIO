@@ -1,10 +1,16 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 export default function AboutMe() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <section id="AboutMe" className="about--section">
-      <div className="about--section--img">
+      <div  data-aos="fade-up"  data-aos-duration='1000' className="about--section--img">
         <img src="./img/about-me.png" alt="About Me" />
       </div>
-      <div className="hero--section--content--box about--section--box">
+      <div  data-aos="fade-down"  data-aos-duration='1000' className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>

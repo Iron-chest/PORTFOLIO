@@ -1,6 +1,11 @@
 import data from "../../data/index.json";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 export default function Testimonial() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
@@ -9,7 +14,7 @@ export default function Testimonial() {
           <h2 className="sections--heading">Customer Feedback</h2>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div data-aos="fade-down" data-aos-duration="4000" className="portfolio--section--container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--review">

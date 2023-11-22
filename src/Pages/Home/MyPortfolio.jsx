@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import data from "../../data/index.json";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 export default function MyPortfolio() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
-    <section className="portfolio--section" id="MyPortfolio">
+    <section ata-aos="fade-in" data-aos-duration="4000" className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
@@ -36,7 +41,7 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div data-aos="slide-up" data-aos-duration="4000" key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>

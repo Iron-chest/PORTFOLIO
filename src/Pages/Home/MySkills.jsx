@@ -1,6 +1,11 @@
 import data from "../../data/index.json";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 export default function MySkills() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
@@ -9,7 +14,7 @@ export default function MySkills() {
       </div>
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (
-          <div key={index} className="skills--section--card">
+          <div data-aos="fade-left"  data-aos-duration='1000' key={index} className="skills--section--card">
             <div className="skills--section--img">
               <img src={item.src} alt="Product Chain" />
             </div>
