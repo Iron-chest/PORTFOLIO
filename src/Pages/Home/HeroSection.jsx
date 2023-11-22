@@ -1,3 +1,4 @@
+import Tola from '../../img/tolani1-removebg-preview.pngg'
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -18,7 +19,7 @@ export default function HeroSection() {
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src={Tola} alt="Hero Section" />
       </div>
     </section>
   );
