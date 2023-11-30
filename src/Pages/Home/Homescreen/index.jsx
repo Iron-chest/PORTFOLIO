@@ -9,7 +9,7 @@ import Testimonial from "../Testimonials";
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <HeroSection  />
       <MySkills />
       <AboutMe />
       <MyPortfolio />

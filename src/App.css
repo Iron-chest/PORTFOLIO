@@ -1,11 +1,14 @@
 /* Global CSS */
 
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
+  /* overflow: scroll; */
+  
 }
 h1,
 h2,
@@ -285,6 +288,15 @@ h2 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skills--section--img img {
+
+   border-radius: .5rem;
+   height: 100px;
+   object-fit: cover;
+   width: 10em;
+   /* object-position:50%; */
+
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -354,6 +366,8 @@ h2 {
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: 200px;
+  border-bottom:1px solid #000000;
 }
 .portfolio--section--card {
   display: flex;
@@ -370,10 +384,18 @@ h2 {
 .portfolio--section--card--content {
   display: flex;
   padding: 32px;
+  height: 340px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+}
+.portfolio--section--card--content a{
+ text-decoration: none;
+ color: #000000;
+ padding: 3px;
+ display: flex;
+ gap: 1em;
 }
 .portfolio--section--title {
   color: var(--heading-color);
@@ -422,6 +444,10 @@ h2 {
   display: flex;
   align-items: center;
   gap: 21.3px;
+}
+.testimonial--section--card--author--detail img {
+  height: 70px;
+  border-radius: 50em;
 }
 .testimonial--author--name {
   font-weight: 600;
@@ -578,7 +604,7 @@ input[type="checkbox"] {
     line-height: 70px;
   }
   .skills--section--container {
-    gap: 16px;
+    gap: 32px;
   }
   .skills--section--card {
     gap: 28px;

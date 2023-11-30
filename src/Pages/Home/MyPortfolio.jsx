@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import data from "../../data/index.json";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 export default function MyPortfolio() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
-    <section className="portfolio--section" id="MyPortfolio">
+    <section ata-aos="fade-in" data-aos-duration="4000" className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
@@ -11,9 +16,9 @@ export default function MyPortfolio() {
         </div>
         <div>
 
-          <button className="btn btn-github">
-            <a href="https://github.com/Iron-chest" target="_blank" rel="noopener noreferrer">
-              <svg
+         <a style={{color:"white"}} href="https://github.com/Iron-chest" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-github">
+           <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
@@ -27,16 +32,16 @@ export default function MyPortfolio() {
                             fill="currentColor"
                           />
                         </svg>
-                        Visit My GitHub
-            </a>
+                       
            
+            Visit My GitHub
           
-          </button>
+          </button> </a>
         </div>
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div data-aos="slide-up" data-aos-duration="4000" key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>
@@ -46,7 +51,8 @@ export default function MyPortfolio() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-                {item.link}
+                <a target="_blank" href={item.link}>
+             view in Github
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -62,6 +68,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
+                </a>
               </p>
             </div>
           </div>
