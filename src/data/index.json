@@ -2,25 +2,25 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/devops1.jpeg",
       "title": "DevOps Engineering",
       "description": "Spearheading the convergence of development and operations, I specialize in automating workflows, implementing continuous integration/deployment, and optimizing infrastructure to accelerate software delivery and enhance system reliability."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "./img/aaws.png",
       "title": "Cloud Engineering",
       "description": "Proficient in designing, deploying, and optimizing scalable cloud infrastructures, seamlessly integrating with DevOps practices to enhance agility, reliability, and innovation in software development and delivery."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "./img/bre.png",
       "title": "Build and Release Engineering",
       "description": "Build and Release Engineering: Expert in crafting and optimizing seamless software delivery pipelines, accelerating releases and ensuring code quality through automated build processes and efficient release management."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/pe.png",
       "title": "Platform Engineering",
       "description": "Expert in crafting robust and scalable platforms, I specialize in designing and managing the foundational infrastructure, optimizing performance, and ensuring seamless integration with DevOps principles for accelerated software delivery and enhanced system resilience."
     }
@@ -28,50 +28,50 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/DevOps.jpg",
+      "title": "DevOps ",
+      "description": "Empowering seamless collaboration between development and operations, I specialize in implementing cutting-edge DevOps practices to accelerate software delivery and enhance overall system reliability. My expertise lies in orchestrating efficient pipelines, automating deployments, and fostering a culture of continuous integration and continuous delivery (CI/CD).",
+      "link": "https://github.com/Iron-chest/DevOps_Projects"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/cicd.png",
+      "title": "CI/CD",
+      "description": "Accelerating software delivery through robust DevOps CI/CD pipelines, I specialize in seamlessly integrating continuous integration and continuous deployment strategies to optimize efficiency, enhance collaboration, and ensure the rapid, reliable delivery of high-quality software solutions. ",
+      "link": "https://github.com/BOA-DevOps/maven-web-application"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/serverless.png",
+      "title": "Serverless",
+      "description": "Transforming infrastructure into scalable, resilient ecosystems, I specialize in orchestrating seamless DevOps workflows within AWS, leveraging serverless architectures to drive efficiency, innovation, and unparalleled operational excellence.",
+      "link": "https://github.com/BOA-DevOps/anug-sls-intro"
     }
   ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/ibidapo.jpg",
+      "description": "Akintayo Promise, your dedication and proficiency in DevOps have truly impressed me. Your ability to seamlessly integrate development and operations showcases a promising future in the field. Keep up the excellent work! ",
       "author_name": "Mrs Ibidapo",
-      "author_designation": "Starbucks"
+      "author_designation": "Bells University"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Mr odeyinde",
-      "author_designation": "Louis Vuitton"
+      "src": "./img/ict.jpg",
+      "description": "Tolani demonstrated exceptional proficiency and dedication as a DevOps engineer. His keen problem-solving skills and commitment to streamlined processes make him a valuable asset to our team.",
+      "author_name": " Mr odeyinde",
+      "author_designation": "Bells University"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kelvin Omoh",
-      "author_designation": "McDonald's"
+      "src": "./img/ko.jpeg",
+      "description": " Akintayo , your DevOps skills are truly impressive! Your seamless integration of CI/CD pipelines and efficient deployment strategies are setting a high standard. Keep up the excellent work in streamlining development processes!",
+      "author_name": "Enaikele Omoh Kelvin",
+      "author_designation": "Netactsi"
     }
   ]
 }

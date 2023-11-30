@@ -1,14 +1,21 @@
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+
+import Tola from '../../img/about.jpeg'
+
 export default function AboutMe() {
   useEffect(()=>{
     AOS.init();
   },[])
   return (
     <section id="AboutMe" className="about--section">
+
       <div  data-aos="fade-up"  data-aos-duration='1000' className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+
+        <img src={Tola} alt="About Me" />
+
       </div>
       <div  data-aos="fade-down"  data-aos-duration='1000' className="hero--section--content--box about--section--box">
         <div className="hero--section--content">

@@ -33,9 +33,9 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
+    <nav style={{zIndex:"100"}} className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/logo.png" height={70} alt="Logoipsum" />
         {/* <h2>Porfolio</h2> */}
       </div>
       <a

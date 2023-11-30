@@ -16,9 +16,9 @@ export default function MyPortfolio() {
         </div>
         <div>
 
-          <button className="btn btn-github">
-            <a href="https://github.com/Iron-chest" target="_blank" rel="noopener noreferrer">
-              <svg
+         <a style={{color:"white"}} href="https://github.com/Iron-chest" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-github">
+           <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
@@ -32,11 +32,11 @@ export default function MyPortfolio() {
                             fill="currentColor"
                           />
                         </svg>
-                        Visit My GitHub
-            </a>
+                       
            
+            Visit My GitHub
           
-          </button>
+          </button> </a>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -51,7 +51,8 @@ export default function MyPortfolio() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-                {item.link}
+                <a target="_blank" href={item.link}>
+             view in Github
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -67,6 +68,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
+                </a>
               </p>
             </div>
           </div>
